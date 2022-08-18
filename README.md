@@ -97,30 +97,38 @@ Drag-n-drop — пользователь хватает мышкой ингре�
 
 При добавлении нового ингредиента в div.pizza__wrapper добавляется новый div с классом pizza__filling и классом-модификатором, соответствующим ингредиенту:
 
-ананас — pizza__filling--ananas;
-бекон — pizza__filling--bacon;
-блю чиз — pizza__filling--blue_cheese;
-чеддер — pizza__filling--cheddar;
-чили — pizza__filling--chile;
-ветчина — pizza__filling--ham;
-халапеньо — pizza__filling--jalapeno;
-моцарелла — pizza__filling--mozzarella;
-грибы — pizza__filling--mushrooms;
-маслины — pizza__filling--olives;
-лук — pizza__filling--onion;
-пармезан — pizza__filling--parmesan;
-салями — pizza__filling--salami;
-лосось — pizza__filling--salmon;
-томаты — pizza__filling--tomatoes.
+- ананас — pizza__filling--ananas;
+- бекон — pizza__filling--bacon;
+- блю чиз — pizza__filling--blue_cheese;
+- чеддер — pizza__filling--cheddar;
+- чили — pizza__filling--chile;
+- ветчина — pizza__filling--ham;
+- халапеньо — pizza__filling--jalapeno;
+- моцарелла — pizza__filling--mozzarella;
+- грибы — pizza__filling--mushrooms;
+- маслины — pizza__filling--olives;
+- лук — pizza__filling--onion;
+- пармезан — pizza__filling--parmesan;
+- салями — pizza__filling--salami;
+- лосось — pizza__filling--salmon;
+- томаты — pizza__filling--tomatoes.
+
 Если добавляется 2 одинаковых ингредиента, то в div.pizza__wrapper нужно добавить код:
 
+```
 <div class="pizza__wrapper">
     <div class="pizza__filling pizza__filling--ananas pizza__filling--second"></div>
 </div>
+```
+
 Если добавляется 3 одинаковых ингредиента, то код будет:
+
+```
 <div class="pizza__wrapper">
     <div class="pizza__filling pizza__filling--ananas pizza__filling--third"></div>
 </div>
+```
+
 3.2.5 Название пиццы
 Поле названия пиццы обязательно для заполнения.
 
